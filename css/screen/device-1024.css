@@ -1,0 +1,243 @@
+/* layouts smaller than 600px, iPhone and mobiles */
+@media handheld and (min-device-width: 768px) and (max-width: 1024px), screen and (min-device-width: 480px) and (max-device-width: 768px)  {
+
+/*@media screen and (max-width: 800px) {
+*/	
+	body {
+		background:#2679bb;
+		min-width: 0 !important;
+	}
+	
+	#sceneCont,
+	#masthead,
+	#mobilecenterWrap,
+	#centerWrap {
+		display:none;
+	}
+	
+	#wrapper {
+		width:768px;
+		min-width:768px;
+		
+		overflow:hidden;
+		margin:0 auto;
+		-moz-box-shadow: 0 -5px 80px 1px #011f41;
+		-webkit-box-shadow: 0px -5px 80px 1px #011f41;
+		box-shadow: 0px -5px 80px 1px #011f41;
+	}
+	
+	#primary,
+	#secondary,
+	#slider,
+	#billboard {
+		display:block;
+	}
+	
+	#buckets {
+		height:620px;
+		background:#2679bb;
+	}
+	
+	#buckets #bucket-fire {
+		display:none;
+	}
+	
+	#buckets #bucket-puffle {
+		display:none;
+	}
+	
+	#slider {
+		width:768px;
+		margin-top:-90px;
+		position:relative;
+	}
+	
+	#slider-text {
+		font-size:20px;
+		height:40px;
+		position:absolute;
+		text-align:center;
+		top:100px;
+		left:0;
+		width:100%;
+		color:#fff;
+		padding-top:35px;
+	}
+	
+	#buckets {
+		margin-top:-50px;
+		height:180px;
+		position:relative;
+		padding-top:25px;
+	}
+	
+	.bucket {
+		width:236px;  /* 768/3 - 16 - 4*/
+		height:147px;
+		float:left;
+		position:relative;
+		margin:12px 0 0 12px; /* (16 * 3) / 4 */
+		overflow:hidden;
+		-webkit-border-radius:6px;
+		-moz-border-radius:6px;
+		border-radius:6px;
+		border:1px solid #fff;
+		-webkit-box-shadow: 0px -5px 10px 1px #035fa8;
+		cursor:pointer;
+	}
+	
+	.bucket div.face h2 {
+		display:block;
+		width:236px;
+		height:22px;
+		background:#0080d0;
+		color:#fff;
+		position:absolute;
+		text-transform:uppercase;
+		font-weight:normal;
+		font-size:13px;
+		text-align:center;
+		z-index:11;
+		padding:3px 0 0 0;
+		top:0;
+		left:0;
+		-webkit-border-radius:6px 6px 0 0;
+		-moz-border-radius:6px 6px 0 0;
+		border-radius:6px 6px 0 0;
+	}
+	.bucket img {
+		-webkit-border-radius:6px;
+		-moz-border-radius:6px;
+		border-radius:6px;
+	}
+	
+	#ftrContent #disGame {
+		width: 135px;
+		position: absolute;
+		left: 15px;
+		top: 40px;	
+	}
+	
+	#ftrContent p {
+		width: 500px;
+		height: 50px;
+		position: absolute;
+		left: 140px;
+		top: 55px;
+		text-align: center;
+		color: #86bcdd;
+		font-size: 9px;
+	}
+	
+	#ftrBg {
+		background:url(https://web-beta.archive.org/web/20120502214256im_/http://media2.clubpenguin.com/www/_/img/common/footer-tile.jpg) top left repeat-x;
+	}
+	
+	#ftrBg ul {
+		text-align:left;
+		left:170px;
+	}
+	
+	#ftrBg ul li,
+	#ftrBg .asterisk  {
+		display:none;
+	}
+	
+	#ftrContent ul li a.new:link, #ftrContent ul li a.new:visited, #ftrContent ul li a.new:active {
+		color:#fff;
+	}
+	
+	#ftrContent .updated {
+		font-size:9px;
+		display:none;
+	}
+	
+	#ftrContent #truste{
+		left:585px;
+		display:none;
+	}
+	
+	#ftrContent #esrb {
+		left:685px;
+		display:none;
+	}
+	
+	#ctr, #bbb {
+		display:none;
+	}
+	
+	#mobile-lang-select {
+		display:block;
+	}
+	
+	#language {
+		position: relative;
+		margin: 5px 10px 0 0;
+		font-size: 8px;
+		font-family: Arial, Helvetica;
+		width: 135px;
+		overflow: hidden;
+		z-index: 100;
+		bottom: 70px;
+		left: 630px;
+	}
+	
+	#language select {
+		width:135px;
+	}
+	span.customStyleSelectBox { 
+		background-color: #36b3e9; 
+		color:#ffffff; 
+		padding:5px; 
+		border:1px solid #36b3e9; 
+		-webkit-border-radius: 5px
+	}
+
+	span.customStyleSelectBox.changed { 
+		background-color: #36b3e9; 
+		color:#36b3e9;
+	}
+
+	.customStyleSelectBoxInner { 
+		background:url(https://web-beta.archive.org/web/20120502214256im_/http://media2.clubpenguin.com/www/_/img/common/dd-arrow-right.gif) no-repeat center left; 
+		padding-left: 10px;	
+	}
+
+	#privacyiframe, #termsiframe {
+		width: 710px;	
+	}	
+
+	#printnsave {
+		display: none;
+	}
+
+	#primary img {
+		display: block;	
+	}
+
+	#mobile-iframeWrapper iframe {
+		display: block;
+		width: 730px;
+	}
+	
+	#desktopViewMessage {
+		display: none;	
+	}	
+	
+	#mobileContentWrapper {
+		background-color: #fff;	
+		width: 730px;
+		margin: 0 auto -20px;
+		font-size: 10px;
+		text-align: left;
+	}	
+
+}
+/*
+     FILE ARCHIVED ON 21:42:56 May 02, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:32:53 Apr 19, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

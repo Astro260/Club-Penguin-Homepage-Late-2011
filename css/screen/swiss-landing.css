@@ -1,0 +1,94 @@
+/* GLOBAL */
+
+#modal-overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	z-index: 1000;
+}
+
+#swiss-wrap h5 {font:bold 14px helvetica, arial, sans-serif;margin:10px 0;}
+
+#swiss-wrap p {font:13px helvetica, arial, sans-serif;}
+
+#swiss-wrap a {color:#00adef;text-decoration:none} 
+
+#swiss-wrap ul {
+	font:13px helvetica, arial, sans-serif;
+	margin:10px;
+	padding:5px;
+}
+	
+#swiss-wrap li {padding-bottom:10px;}
+
+		
+
+
+/* CONTENT */
+
+#swiss-wrap{
+	height:380px;
+	width:490px;
+	color:#000;
+	background: url(/web/20120502214256im_/http://www.clubpenguin.com/_/img/swiss-bg.png);
+	/*background:none;*/
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_/img/swiss-bg.png',sizingMethod='crop');
+}
+
+#swiss-wrap a {
+	color:#00adef;
+	text-decoration:none;
+}
+
+#upgrade-info{
+	float:left;
+	width:335px;
+	padding:75px 20px 0 340px;
+}
+
+#swiss-wrap .buttons {
+	height: 55px;
+	left: 75px;
+	position: absolute;
+	top: 305px;
+	width: 400px;
+}
+
+#swiss-wrap .btn{
+	float:left;
+	width:165px;
+	height:40px;
+	background: url(/web/20120502214256im_/http://www.clubpenguin.com/_/img/swiss-btn.png) top left no-repeat;
+	cursor:pointer; 
+	font:14px helvetica, arial, sans-serif;
+	font-weight:bold;
+	padding-right: 25px;
+}
+
+#swiss-wrap .btn a{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	width:165px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	position:relative;
+}
+	
+#swiss-wrap .btn:hover{
+	background: url(/web/20120502214256im_/http://www.clubpenguin.com/_/img/swiss-btn-hover.png) top left no-repeat;
+	cursor:pointer;
+	position:relative;
+}	
+/*
+     FILE ARCHIVED ON 21:42:56 May 02, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:32:53 Apr 19, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

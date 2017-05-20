@@ -1,0 +1,453 @@
+@charset "UTF-8";
+body
+{
+	position:relative;
+	font-family: Arial, Helvetica, sans-serif; 
+	color:#555; 
+	margin:0; 
+	padding:0; 
+	text-align:center; 
+	background-color:#0186B1;
+	height:100%; 
+	width: 100%;
+	font-size:small;
+    min-width: 1022px !important;
+	font-size: x-small; /* IE5 Win */
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	font-size: small;
+	background-image:none;
+}
+
+html>body {
+font-size:small;
+}
+
+strong {
+font-weight:700;
+}
+
+
+#hdrWrap{/*This houses the main background for the Flash navigation on all sub pages*/
+	position: absolute;
+	height:134px !important;
+	width: 100%;
+	min-width: 1022px !important;
+	margin:0; 
+	background: url(/images/navBg.gif) 50% -1px no-repeat ;
+	z-index:4;
+}
+
+#flashNavContainer {
+position:relative;
+height:134px;
+width:1022px;
+top:0;
+z-index:2;
+margin:0 auto;
+outline: none;
+}
+
+object {
+outline: none;
+}
+
+#centerWrap {
+position:relative;
+width:100%;
+font-size:110%;
+z-index:20;
+margin-top:-130px;
+}
+
+#contentWrap {
+position:relative;
+width:900px;
+z-index:20;
+margin:0 auto;
+}
+
+#ftrWrap {
+position:relative;
+top:20px;
+height:140px;
+width:100%;
+background:url(/images/footer-graphic-repeat.png) repeat-x;
+z-index:50;
+clear: both;
+}
+
+#ftrBg {
+position:relative;
+height:140px;
+width:100%;
+background:url(/images/footer-graphic-main.png) 50% 0 no-repeat;
+z-index:40;
+margin:0 auto;
+}
+
+#ftrContent {
+position:relative;
+height:140px;
+width:900px;
+z-index:39;
+margin:0 auto;
+}
+
+#ftrContent ul li {
+color:#39F;
+}
+
+#ftrContent ul li a.new:link,#ftrContent ul li a.new:visited,#ftrContent ul li a.new:active {
+color:#feb62a; /*can be used to change the color of the Privacy Policy and Terms of Use links in the footer when necessary*/
+}
+
+#ftrContent ul li a.new:hover {
+color:#5ad0fa; /*can be used to change the color of the Privacy Policy and Terms of Use links in the footer when necessary*/
+}
+
+.asterisk {
+color:#fff;
+}
+
+.updated {
+font-size:10px;
+}
+
+#sceneCont {
+position:relative;
+height:505px;
+width:100%;
+z-index:1;
+}
+
+
+#hdrWrap h1 {
+position:absolute;
+top:18px;
+left:58px;
+text-indent:-9999px;
+background:url(/images/logo.jpg) no-repeat;
+height:86px;
+width:172px;
+}
+
+#playNow {
+position:absolute;
+top:36px;
+right:60px;
+height:72px;
+width:170px;
+}
+
+#playNow a,#playNow a:link,#playNow a:visited {
+display:block;
+border:none;
+text-indent:-9999px;
+text-decoration:none;
+height:72px;
+width:170px;
+background:url(/images/playNow.jpg) 0 0;
+}
+
+#playNow a:hover {
+display:block;
+border:none;
+text-indent:-9999px;
+text-decoration:none;
+height:72px;
+width:170px;
+background:url(/images/playNow.jpg) 0 72px;
+}
+
+#promoWrap {
+height:auto;
+width:900px;
+position:relative;
+z-index:5000;
+margin-top:165px;
+}
+
+#promoWrap #roundBottom,
+#promoWrap #roundTop {
+	height:18px;
+}
+
+#promoWrap .inner {
+background:#03a0c3 url(/images/content-box-bottom.png) left bottom no-repeat;
+padding:0px 30px;
+}
+
+.home_promo {
+height:auto;
+width:150px;
+float:left;
+z-index:10;
+margin:0 22px 0 0;
+padding:0;
+text-align:left;
+}
+
+.home_promo a {
+	height: 116px;
+	width: 150px;
+	display: block;
+}
+
+.homeNoMarg {
+z-index:10;
+margin:0;
+}
+
+.home_promo div.header {
+font-family:Arial, Helvetica, sans-serif;
+font-size:20px;
+font-weight:800;
+color:#fff;
+margin:12px 0 5px 2px;
+}
+
+.home_promo p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:100;
+	color:#fff;
+	line-height:1.3em;
+	height:auto;
+	margin:0 0 10px 2px;
+	text-align:left;
+}
+
+/*START home page rollover buttons*/
+
+
+.cssnav {
+	float:left;
+	font-family:arial,helvetica,sans-serif;
+	width:138px;
+	height:24px;
+	margin:0pt;
+	overflow:hidden;
+	padding:0pt;
+	position:relative;
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(/images/home_page_button_roll.gif);
+	background-repeat: no-repeat;
+	background-position: 0%;
+	}
+.cssnav a {
+	color:#00529B;
+	display:block;
+	float:left;
+	font-size:12px;
+	font-weight:700;
+	width:138px;
+	height:24px;
+	overflow:hidden;
+	text-decoration:none;
+}
+
+.cssnav a:hover {
+	color:#FFFFFF;
+}
+
+.cssnav img {
+	border:0pt none;
+	width:138px;
+	height:24px;
+}
+
+* html a:hover {
+	visibility:visible;
+}
+
+.cssnav a:hover img {
+	visibility:hidden;
+}
+
+.cssnav span {
+	cursor:pointer;
+	left:9px;
+	position:absolute;
+	text-align:left;
+	top:5px;
+	width:120px;
+}
+
+
+/*END home page rollover buttons*/
+
+#ftrBg ul {
+position:absolute;
+top:38px;
+left:112px;
+display:block;
+list-style:none;
+height:auto;
+width:625px;
+text-align:center;
+}
+
+#ftrBg ul li {
+display:inline;
+list-style:none;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:800;
+color:#01384a;
+margin:0 1px 0 0;
+}
+
+#ftrBg ul .noMarg {
+margin:0;
+}
+
+#ftrBg ul li a,#ftrBg ul li a:link,#ftrBg ul li a:visited {
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:700;
+color:#fff;
+text-decoration:none;
+}
+
+#ftrBg ul li a:hover {
+font-family:Arial, Helvetica, sans-serif;
+color:#5ad0fa;
+text-decoration:none;
+}
+
+#ftrBg ul li .active {
+color:#5ad0fa;
+}
+
+#ftrBg p {
+position:absolute;
+top:80px;
+left:200px;
+height:auto;
+width:460px;
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+font-size:10.5px;
+color:#013444;
+}
+
+#disGame {
+position:absolute;
+top:30px;
+left:-25px;
+}
+
+#bbb {
+position:absolute;
+top:32px;
+left:710px;
+}
+
+#bbb_english {
+position:absolute;
+top:32px;
+left:685px;
+}
+
+#esrb {
+position:absolute;
+top:25px;
+left:855px;
+}
+
+#ctr {
+position:absolute;
+top:26px;
+left:820px;
+height:56px;
+}
+
+#truste {
+position:absolute;
+top:41px;
+left:745px;
+height:34px;
+}
+
+.floatHack {
+clear:both;
+height:0;
+border:none;
+width:100%;
+visibility:hidden;
+margin:0;
+padding:0;
+}
+
+img {
+border:none !important;
+}
+
+a:hover {
+color:#000;
+text-decoration:none;
+font-weight:700;
+}
+
+#mobilecenterWrap {
+position:relative;
+width:100%;
+z-index:30;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+#mobilecontentWrap {
+position:relative;
+width:902px;
+z-index:30;
+margin:0 auto;
+display:none;
+}
+
+#mobile-apps-callout {
+position:absolute;
+top: -60px;
+right:12px;
+z-index:30;
+width:281px;
+height:65px;
+padding-top:35px;
+padding-right:15px;
+background:url(/images/mobile-apps-bg.png) repeat-x;
+}
+#mobile-apps-callout a{
+	float:right;
+}
+
+#purchase_required {
+	font-size: 10px; 
+	color: #555; 
+	position: relative; 
+	float: right; 
+	clear: both; 
+	margin-right:0px;
+	margin-top:-70px;
+	text-align:right;
+	width:165px;
+}
+
+#primary,
+#secondary,
+#slider,
+#mobile-lang-select {
+	display:none;
+}
+/*
+     FILE ARCHIVED ON 11:47:22 May 05, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:32:52 Apr 19, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=7, IE=9">
+	<meta http-equiv="Content-Language" content="en"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+	<title>The Club Penguin - Waddle around and meet new friends!</title>
+	<meta name="DC.creator" content="The Club Penguin - http://theclubpenguin.pro"/>
+	<meta name="robots" content="index, follow"/>
+	<meta name="description" content="Welcome to Club Penguin, a virtual world for kids guided by an unwavering commitment to safety and creativity"/> 
+	<meta name="keywords" content="club penguin, penguin, disney, mmo, game, kids, safe"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1,"/>
+	<link rel="stylesheet" href="/css/common/reset.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="/css/common/common.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="/css/home-page.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="/css/common/modal.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="/css/screen/swiss-landing.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="/css/screen/device-480.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="/css/screen/device-1024.css" type="text/css" media="screen"/>
+	
+
+	<script src="/scripts/cookies.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/js/common/lib/swfobject.js"></script>
+	<script src="/js/common/lib/jquery-1.5.1.min.js" type="text/javascript"></script>
+	<script src="/js/common/lib/cufon.js"></script>
+	<script src="/js/common/MyriadWebPro-Bold_700.font.js"></script>
+	<script src="/js/common/MyriadWebPro-Regular_400.font.js"></script>
+	
+	<script type="text/javascript">
+		var swfUrl                  = "/swf/homepage-scene-default.swf";
+		var swfID                   = "scene";
+		var swfWidth                = "100%";
+		var swfHeight               = "1000";
+		var swfVersion              = "9.0.28.0";
+		var allowExpressInstall     = false;
+	
+		var flashVars = {};
+	
+		var params = {
+			menu                    : "false",
+			allowscriptaccess       : "always",
+			wmode					: "opaque",
+			bgcolor					: "#0186B1",
+			salign					: "t"
+		};
+	
+		var attributes = {
+			id                      :swfID,
+			name                    :swfID
+		};
+	
+		swfobject.embedSWF(swfUrl, swfID, swfWidth, swfHeight, swfVersion, allowExpressInstall, flashVars, params, attributes);
+	</script>
+
+	<!--[if IE 6]>
+	  <link rel="stylesheet" type="text/css" href="http://media2.clubpenguin.com/www/css/ie.css" />
+	<![endif]-->
+	<!--[if IE 7]>
+	  <link rel="stylesheet" type="text/css" href="http://media2.clubpenguin.com/www/_/css/common/ie7.css" />
+	<![endif]-->
+	
+	<!--[if lt IE 10]>
+	<script src="http://media2.clubpenguin.com/www/_/js/common/lib/PIE.js"></script>
+	<![endif]-->
+	
+	<script>
+	$(function() {
+	    $('.rollover').hover(function() {
+	        var currentImg = $(this).attr('src');
+	        $(this).attr('src', $(this).attr('hover'));
+	        $(this).attr('hover', currentImg);
+	    }, function() {
+	        var currentImg = $(this).attr('src');
+	        $(this).attr('src', $(this).attr('hover'));
+	        $(this).attr('hover', currentImg);
+	    });
+	});
+	</script>
+	<script src="/js/common/cp.utils.modal.js" type="text/javascript"></script>
+	<script src="/js/common/cp.common.js" type="text/javascript"></script>
+	<script src="/js/homepage.js" type="text/javascript"></script>
+	
+	</head>
+
+	<body class="legacy">
+		<div id="wrapper">
+			<div id="masthead">
+				<div id="nav">
+					<a class="logo" href="http://www.theclubpenguin.pro/"></a>
+					<ul class="menu">
+						<li><a href="http://www.clubpenguin.com/membership/">Membership</a></li>
+						<li><a href="http://community.clubpenguin.com/">Community</a></li>
+						<li><a href="http://www.clubpenguin.com/parents/">Parents</a></li>
+						<li><a href="http://www.clubpenguin.com/toys/">Toys</a></li>	
+						<li><a href="http://community.clubpenguin.com/club-penguin-mobile-apps/">Mobile</a></li>
+					</ul>
+					<ul class="blogscroll">
+						<li class="active"><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>					
+					</ul>
+					<div id="langdropdown">
+						<ul>
+							<li class="top-level"><a href="#" tabindex="1">Language Select</a>
+			                    <ul class="translate">
+									<li><a href="http://www.clubpenguin.com:80/">ENGLISH</a></li>
+									<li><a href="http://www.clubpenguin.com:80/pt/">PORTUGU&Ecirc;S</a></li>
+									<li><a href="http://www.clubpenguin.com:80/fr/">FRAN&Ccedil;AIS</a></li>
+									<li><a href="http://www.clubpenguin.com:80/es/">ESPA&Ntilde;OL</a></li>
+									<li class="last"><a href="http://www.clubpenguin.com:80/de/">DEUTSCH</a></li>
+			                    </ul>
+			             	</li>
+			           	</ul>
+			       	</div>
+					<a href="http://play.theclubpenguin.pro/" id="play-now">play now</a>
+				</div><!--nav-->
+			</div><!--masthead-->
+
+			<div id="sceneCont">
+				<div id="scene"></div>
+			</div>
+
+			<div id="centerWrap">
+				<div id="contentWrap">
+					<div id="promoWrap">
+						<div id="roundTop"><img src="/images/content-box-top.png"/></div>
+						<div class="inner">
+							<div class="home_promo">
+		       					<a href="http://community.clubpenguin.com/">
+									<img src="/images/home_promo_fun.jpg" alt="Fun Stuff"/>
+								</a>
+		       					<div class="header">
+		           					<h2 class="header">Community</h2>
+								</div>
+		           				<p>
+		           					Submit your artwork, get new desktop wallpapers, coloring pages and the latest comics.
+								</p>
+							</div>
+
+		       				<div class="home_promo">
+		       					<a href="http://www.clubpenguin.com/membership/">
+									<img src="/images/home_promo_membership.jpg" alt="Membership"/>
+								</a>
+		       					<div class="header">
+		           					<h2>Membership</h2>
+								</div>
+		           				<p>
+		           					Learn about the features and benefits of becoming a member of Club Penguin.
+								</p>
+							</div>
+
+		       				<div class="home_promo">
+		       					<a href="toys/">
+									<img src="/images/home_promo_toys.jpg" alt="Toys"/>
+								</a>
+		      	  					<div class="header">
+		           						<h2>Toys</h2>
+		       						</div>
+		           				<p>
+		           					Take Club Penguin with you. From clothes to books, games and toys &ndash; Visit the Club Penguin Shop Online for all your penguin gear.
+								</p>
+							</div>
+
+							<div class="home_promo">
+		       					<a href="http://support.clubpenguin.com/help/">
+									<img src="/images/home_promo_help.jpg" alt="Help and Tutorials"/>
+								</a>
+		       					<div class="header">
+									<h2>Help &amp; Support</h2>
+								</div>
+								<p>
+									Find answers to the most frequent questions about Club Penguin. Updated weekly.
+								</p>
+							</div>
+					
+							<div class="home_promo homeNoMarg">
+								<a href="parents/">
+									<img src="/images/home_promo_parents.jpg" alt="Parents"/>
+								</a>
+								<div class="header">
+									<h2>Parents</h2>
+								</div>
+								<p>
+									Learn more about Club Penguin in this section designed for parents of penguins.
+								</p>
+							</div>
+					
+							<div class="inner_faux_button_row" style="clear: both;">
+								<div class="home_promo">
+									<div class="cssnav">
+										<a href="http://community.clubpenguin.com/">
+											<img alt="Fun Stuff" src="/images/home_page_button_norm.gif"/>
+											<span>Check it Out</span>
+										</a>
+									</div>
+								</div>
+						
+								<div class="home_promo">
+									<div class="cssnav">
+										<a href="http://www.clubpenguin.com/membership/">
+											<img alt="Membership" src="/images/home_page_button_norm.gif"/>
+											<span>Learn more</span>
+										</a>
+									</div>
+								</div>
+					
+								<div class="home_promo">
+									<div class="cssnav">
+										<a href="toys/">
+											<img alt="Toys" src="/images/home_page_button_norm.gif"/>
+											<span>Go Shopping</span>
+										</a>
+									</div>
+								</div>
+					
+								<div class="home_promo">
+								<div class="cssnav">
+									<a href="http://support.clubpenguin.com/help/">
+										<img alt="Help &amp; Support" src="/images/home_page_button_norm.gif"/>
+										<span>Get Help</span>
+									</a>
+								</div>
+							</div>
+					
+								<div class="home_promo homeNoMarg">
+		           				<div class="cssnav">
+									<a href="parents/">
+										<img alt="Parents" src="/images/home_page_button_norm.gif"/>
+										<span>Learn more</span>
+									</a>
+								</div>
+							</div>
+							</div>
+							<div class="floatHack"></div>
+						</div> <!-- inner -->
+						<div id="roundBottom"><img src="/images/content-box-bottom.png"/></div>
+					</div> <!-- promoWrap -->
+				</div> <!-- contentWrap -->
+			</div><!-- centerWrap -->
+
+			<div id="primary">
+				<div class="slides" id="swipable">
+					<div class="slide">
+						<div class="figure">
+							<a href="javascript: void(0)"><img src="./img/slide_cof_generic.jpg"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="slider">
+				<img src="./img/common/mobile-slider.png">
+				<div id="slider-text">
+					<p id="slider-text2" class="myriadwebpro">Check out clubpenguin.com on your computer</b>
+				</div>
+			</div><!--slider-->
+			
+			<div id="secondary">
+				<div id="buckets">
+					<div class="bucket" id="bucket-puffle">
+						<a href="http://redirect.m.go.com/itunes/pufflelaunch" class="button">
+							<img src="/img/common/bucket_1_1.jpg" alt="Club Penguin"/>
+						</a>
+						<div class="face">
+							<h2>Available now!</h2>
+						</div>
+					</div>
+					<div class="bucket video">
+						<a href="http://media2.clubpenguin.com/cdn/video/puffle-be.mp4" class="button">
+							<img src="/img/common/bucket_9.jpg" alt="Club Penguin"/>
+						</a>
+						<div class="face">
+							<h2>Puffles</h2>
+						</div>
+					</div>
+					<div class="bucket video" id="bucket-fire">
+						<a href="http://media2.clubpenguin.com/cdn/video/card-jitsu-fire.mp4" class="button">
+							<img src="/img/common/bucket_7.jpg" alt="Club Penguin"/>
+						</a>
+						<div class="face">
+							<h2>Card-Jitsu Fire</h2>
+						</div>
+					</div>
+					<div class="bucket video">
+						<a href="http://media2.clubpenguin.com/cdn/video/card-jitsu-water.mp4" class="button">
+							<img src="/img/common/bucket_8.jpg" alt="Club Penguin"/>
+						</a>
+						<div class="face">
+							<h2>Card-Jitsu Water</h2>
+						</div>
+					</div>
+					
+				</div><!--buckets-->
+			</div> <!--secondary-->
+			
+			<script src="/scripts/footer.php" type="text/javascript" language="javascript"></script>
+			
+			
+			<div id="mobile-lang-select">
+				<div id="language">
+		        <form id="page-changer" action="" method="post">
+		            <select name="nav" class="styled translate">
+		                <option value="" selected>Language&nbsp;Select</option>
+		                <option value="/">English</option>
+		                <option value="/pt/">Portugus</option>
+		                <option value="/fr/">Franais</option>
+		                <option value="/es/">Espaol</option>
+						<option value="/de/">Deutsch</option>
+					</select>
+		            <input type="submit" value="Go" id="submit"/>
+		        </form>
+		        </div><!-- /language -->
+			</div>
+			
+		</div> <!--wrapper-->
+	</body>
+</html>
